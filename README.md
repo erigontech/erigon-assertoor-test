@@ -56,6 +56,7 @@ additional_services:
 assertoor_params:
   run_stability_check: false
   run_block_proposal_check: false
+  # image: test/assertoor:current
   tests:
   - https://raw.githubusercontent.com/ethpandaops/assertoor-test/master/assertoor-tests/block-proposal-check.yaml
   - https://raw.githubusercontent.com/ethpandaops/assertoor-test/master/assertoor-tests/all-opcodes-test.yaml
