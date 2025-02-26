@@ -30,6 +30,19 @@ cd erigon
 docker build -t test/erigon:current .
 ```
 
+(Optional) If you want to use a standalone assertoor image, you can build it using the following commands:
+
+```sh
+# Clone the Assertoor repository
+git clone https://github.com/noku-team/assertoor
+
+# Navigate into the repository directory
+cd assertoor
+
+# Build the Docker image
+docker build -t test/assertoor:current .
+```
+
 ### Step 4: Create a Configuration File
 
 Below is an example of a Kurtosis YAML configuration file that sets up a simple testnet with two client pairs and configures Assertoor to run specific test playbooks.
