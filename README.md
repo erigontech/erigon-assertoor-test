@@ -34,7 +34,7 @@ docker build -t test/erigon:current .
 
 ```sh
 # Clone the Assertoor repository
-git clone https://github.com/noku-team/assertoor
+git clone https://github.com/erigontech/assertoor
 
 # Navigate into the repository directory
 cd assertoor
